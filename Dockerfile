@@ -6,6 +6,7 @@ ARG SERVER_HOST
 ENV SERVER_HOST=$SERVER_HOST
 ARG SERVER_PORT
 ENV SERVER_PORT=$SERVER_PORT
+ENV PUPPETEER_SKIP_DOWNLOAD=true
 COPY package*.json /usr/src/app/
 COPY src /usr/src/app/src
 COPY tsconfig.json /usr/src/app/tsconfig.json
