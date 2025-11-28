@@ -1,5 +1,6 @@
 # ignore environment variables file
 .env
+.env*
 
 # ignore jetbrains config
 .idea
