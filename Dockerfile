@@ -1,4 +1,4 @@
-FROM node:lts-alpine AS build
+FROM node:18-alpine AS build
 WORKDIR /usr/src/app
 ARG SERVER_NAME
 ENV SERVER_NAME=$SERVER_NAME
